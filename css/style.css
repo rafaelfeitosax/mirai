@@ -132,3 +132,14 @@ h2{
     text-decoration: none;
     color: black;
 }
+
+.esferas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.esferas img{
+    width: 70px;
+    height: 70px;   
+}
