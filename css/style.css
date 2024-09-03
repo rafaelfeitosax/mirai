@@ -1,0 +1,134 @@
+html{
+    font-family: Helvetica;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*deixou alinhado*/
+    color:#555;
+
+}
+
+.container{
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+
+h2{
+    color: black;
+}
+
+.bold{
+    font-weight: bold;
+    color: black;
+}
+
+/* HEADER */
+
+.header{
+    text-align: center;
+}
+
+.main-title{
+    font-size: 40px;
+    color: black;
+}
+
+.main-paragraph{
+    font-style: italic;
+}
+
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img-bold{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+/*Bio*/
+
+.biography-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+
+}
+
+/* Quotes*/
+
+.quotes-container{
+    background-color: #ddd;
+    padding: 30px;
+
+}
+
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p{
+    font-style: italic;
+}
+
+/*Curiosidades*/
+
+.curiosities-container{
+    padding: 30px 0;
+    margin: 30px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+
+}
+
+.curiosities-container li{
+    height: 40px;
+}
+
+
+/* Estilos simples para o menu hambúrguer */
+.menu-hamburguer {
+    position: relative;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-nav {
+    display: none;
+    text-align: right;
+}
+
+#menu-toggle:checked + .menu-icon + .menu-nav {
+    display: block;
+}
+
+.menu-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-nav ul li {
+    margin: 10px 0;
+}
+
+.menu-nav ul li a {
+    text-decoration: none;
+    color: black;
+}
